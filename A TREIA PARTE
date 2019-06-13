@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h1>Hello World</h1>
+    <button>Click Me</button>
+    
+<script>
+    const btn = document.querySelector('button')
+    btn.addEventListener('click', handleClick)
+    function handleClick() {
+        const { innerHTML } = document.querySelector('h1')
+        alert(innerHTML)
+    }
+</script>
+</body>
+</html>
